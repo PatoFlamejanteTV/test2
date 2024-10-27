@@ -1,4 +1,5 @@
 turtle.setPosition(0, 0)
+music.play(music.createSoundExpression(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
 turtle.pen(TurtlePenMode.Down)
 turtle.forward(5)
 turtle.turnLeft()
